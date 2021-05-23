@@ -11,7 +11,7 @@
 
 <P>  The time on the server is ${serverTime}. </P>
 
-<form:form action="/ThisOneDamnit/login" method="get" modelAttribute="userVo">
+<form:form action="user/login" method="get" modelAttribute="userVo">
 	<table>  
 		<tr>
 			<td colspan="2" align="center">Login</td>
